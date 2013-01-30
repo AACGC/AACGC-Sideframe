@@ -1,0 +1,24 @@
+.ddajaxsidepanel{ /* Main Panel Container */
+position: fixed; /* keep this value as is */
+top: 0; /* keep this value as is */
+visibility: hidden; /* keep this value as is */
+background: white;
+border-color: white;
+border-left: 1px ridge #eee;
+}
+
+.ddajaxsidepanel .panelhandle{ /* CSS for Panel Handle DIV */
+width: 24px;
+height: 100%;
+position: absolute;
+left: -14px;
+top: 0;
+cursor: pointer;
+background: transparent url(images/handle.gif) center left no-repeat; /* path to "handle" gif */
+}
+
+.ddajaxsidepanel .contentarea{ /* CSS for main content area DIV */
+height: 100%;
+padding: 2px;
+overflow: scroll;
+}
